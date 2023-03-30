@@ -3,7 +3,7 @@
 This full-stack ecommerce application was developed by Iheb Riahi using Angular and Spring Boot.
 Although some features are not yet implemented or fully functional, the application serves as a small project completed as part of the Angular curriculum at Horizon School University.
 
-## Ecommerce_Front
+## Ecommerce_Back
 This Github repository hosts the backend code for my 'Ecommerce Project', which was built using Spring Boot 3.0.2 and authored by Iheb Riahi.
 
 ## Getting Started
@@ -14,6 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 - Java 17
 - Spring Boot 3.0.2
+- Lombok  (https://projectlombok.org/setup/eclipse)
 
 ### Installing
 
@@ -41,7 +42,7 @@ Minor features: scroll to top, navbar, sidebar, snackbar, products list dynamica
 
 ### Notes
 
-1. If you run the frontend on a different port instead of 4200, you may need to change the "@CrossOrigin(origins = "http://localhost:4200")" in spring boot's rest controllers 
+1. If you run the frontend on a different port instead of 4200, you need to change the 'allowedOrigins("http://localhost:4200")' in WebConfig.java
 
 ## Contributing
 
