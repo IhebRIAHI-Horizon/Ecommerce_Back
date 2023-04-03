@@ -44,6 +44,11 @@ Minor features: scroll to top, navbar, sidebar, snackbar, products list dynamica
 
 1. If you run the frontend on a different port instead of 4200, you need to change the 'allowedOrigins("http://localhost:4200")' in WebConfig.java
 
+### Preview
+
+1. User Interface : https://www.loom.com/share/99d6bd4f29e0408bafe40a8800bb8442
+2. Admin Interface : https://www.loom.com/share/709141d3c5864815ade6e66b98e35435
+
 ## Contributing
 
 Feel free to submit pull requests and open issues for any bugs or feature requests.
